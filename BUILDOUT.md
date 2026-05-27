@@ -36,6 +36,15 @@ Implemented third frontend integration slice:
 - Replaced static Kanban counts with backend task-board counts.
 - Kept a fallback preview state so the page remains useful when the backend is not reachable.
 
+Implemented fourth stabilization slice:
+
+- Committed and pushed both `cairo-ui` and `cairo-backend` feature branches.
+- Fixed `cairo-ui` typecheck blockers by adding missing system config keys and repairing the PreviewPanel download merge issue.
+- Added ACE-aware Conscious Harness read paths:
+  - `/overview` now attempts to count real ACE companies, goals, runtime tasks, operators, approvals, capability gaps, and audit activity.
+  - `/tasks/kanban` now attempts to read `ACERuntimeTask` rows and map them into Harness Kanban columns.
+  - Both endpoints fall back to in-memory state when ACE tables or DB access are unavailable.
+
 ## Swarm Findings
 
 ### Frontend
