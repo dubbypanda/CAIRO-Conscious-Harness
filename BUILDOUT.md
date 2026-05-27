@@ -24,6 +24,18 @@ Implemented second backend integration slice:
   - `POST /api/v1/conscious-harness/nango/webhook`
 - Added webhook events into the runtime activity feed.
 
+Implemented third frontend integration slice:
+
+- Wired the Command Center to load live overview data plus `/tasks/kanban`.
+- Added interactive automation controls:
+  - seed goal + expand tasks + set first task running + spawn execution swarm,
+  - run ODIL conversion,
+  - create a Nango connect session,
+  - record a GitHub connection and webhook sync event,
+  - score a high-risk autonomous action.
+- Replaced static Kanban counts with backend task-board counts.
+- Kept a fallback preview state so the page remains useful when the backend is not reachable.
+
 ## Swarm Findings
 
 ### Frontend
