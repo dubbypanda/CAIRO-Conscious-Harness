@@ -58,6 +58,17 @@ Implemented fifth meta-harness execution slice:
 - Added Command Center controls for assigning a Codex harness run and benchmarking Codex.
 - Added backend service coverage for the meta-harness run and benchmark lifecycle.
 
+Implemented sixth governance slice:
+
+- Added approval requests for high-risk or explicitly gated harness runs.
+- High-risk harness runs now enter `waiting_approval` instead of executing immediately.
+- Approval decisions move harness runs into `running` when approved or block/fail them when rejected.
+- Exposed new governance contracts:
+  - `GET /api/v1/conscious-harness/approvals`
+  - `POST /api/v1/conscious-harness/approvals/{approval_id}/decision`
+- Added Command Center control for exercising the approval gate.
+- Added backend service coverage for high-risk harness approval flow.
+
 ## Swarm Findings
 
 ### Frontend
