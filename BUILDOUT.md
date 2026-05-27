@@ -45,6 +45,19 @@ Implemented fourth stabilization slice:
   - `/tasks/kanban` now attempts to read `ACERuntimeTask` rows and map them into Harness Kanban columns.
   - Both endpoints fall back to in-memory state when ACE tables or DB access are unavailable.
 
+Implemented fifth meta-harness execution slice:
+
+- Added governed harness run tracking for Codex, Hermes, OpenClaw, and future adapters.
+- Added task assignment, run status updates, active run metrics, and recent activity feed entries.
+- Added harness benchmark scoring with success rate, latency, cost, trust score updates, and trusted/shadow-mode recommendations.
+- Exposed new backend contracts:
+  - `POST /api/v1/conscious-harness/harness/{harness_id}/run`
+  - `GET /api/v1/conscious-harness/harness/runs`
+  - `POST /api/v1/conscious-harness/harness/runs/{run_id}/status`
+  - `POST /api/v1/conscious-harness/harness/{harness_id}/benchmark`
+- Added Command Center controls for assigning a Codex harness run and benchmarking Codex.
+- Added backend service coverage for the meta-harness run and benchmark lifecycle.
+
 ## Swarm Findings
 
 ### Frontend
