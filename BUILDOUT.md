@@ -112,6 +112,15 @@ Implemented eleventh ODIL persistence slice:
 - Command Center now displays persisted ODIL documents with converter, markdown size, workflows, entities, and token savings.
 - Added optional SQLAlchemy-backed coverage for ODIL document persistence across service restarts.
 
+Implemented twelfth Nango persistence slice:
+
+- Added persistent Nango connection and webhook event models.
+- Added Alembic migration `044_conscious_harness_nango_persistence`.
+- Nango connection record/list endpoints now persist and read connection state when DB is available.
+- Nango webhook intake now persists webhook events for later EIL processing.
+- Command Center now displays persisted Nango connections with integration, connection id, provider config, and status.
+- Added optional SQLAlchemy-backed coverage for Nango connection and webhook persistence.
+
 ## Swarm Findings
 
 ### Frontend
