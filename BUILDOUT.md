@@ -357,6 +357,15 @@ Implemented forty-first ACE adapter linkage hardening slice:
 - Command Center drill cards now display linked/available adapter counts, and ACE adapter cards reuse runner readiness detail.
 - Added backend service coverage for ACE available mode by default and live mode through ACE runtime task linkage.
 
+Implemented forty-second end-to-end launch validation slice:
+
+- Added `GET /api/v1/conscious-harness/launch/validation` for current ship/no-ship launch validation.
+- Added `POST /api/v1/conscious-harness/launch/validation` to run a fresh launch drill and return a final validation report.
+- Launch validation now composes launch drill, deployment preflight, release candidate gate, adapter readiness, smoke-test history, and launch evidence.
+- Validation reports include decision, blockers, warnings, criteria, release candidate linkage, evidence linkage, and launch summary counts.
+- Command Center Release Candidate Gate now exposes Validate Launch and displays decision, blocker count, adapter readiness, and smoke-test count.
+- Added backend service coverage for fresh validation and latest-drill validation snapshots.
+
 ## Swarm Findings
 
 ### Frontend
