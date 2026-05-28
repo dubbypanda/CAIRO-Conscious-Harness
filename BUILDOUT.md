@@ -312,6 +312,15 @@ Implemented thirty-sixth adapter smoke-test history slice:
 - Command Center now displays latest adapter smoke-test status and recent smoke-test history.
 - Added backend service coverage for DB-backed smoke-test persistence and readiness hydration.
 
+Implemented thirty-seventh launch drill runner slice:
+
+- Added the persistent `ch_launch_drills` model and migration `053_conscious_harness_launch_drills`.
+- Added `GET /api/v1/conscious-harness/launch/drills` and `POST /api/v1/conscious-harness/launch/drills`.
+- Launch drills now run executable preflight actions, adapter smoke tests, refreshed preflight, adapter readiness, and release-candidate gate generation as one rehearsal report.
+- Drill reports persist status, verdict, profile, preflight status, adapter status, release-candidate linkage, full report JSON, and errors.
+- Command Center Release Candidate Gate now exposes a Run Drill control and recent drill history.
+- Added backend service coverage for in-memory launch drills and DB-backed drill persistence.
+
 ## Swarm Findings
 
 ### Frontend
