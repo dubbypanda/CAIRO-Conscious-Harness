@@ -96,6 +96,13 @@ Implemented ninth ACE linkage slice:
 - Harness run status updates now synchronize back to linked ACE runtime task status/result/error fields.
 - Added optional SQLAlchemy-backed service coverage for ACE-linked run creation and completion.
 
+Implemented tenth ACE-linked Command Center slice:
+
+- Added ACE company, operator, and tenant context inputs to the Conscious Harness Command Center.
+- Added an `Assign ACE-Linked Run` action that sends ACE context into the harness run API.
+- Harness run cards now display linked ACE task IDs when present.
+- The Command Center can now exercise standalone harness runs and ACE-attached harness runs from the same surface.
+
 ## Swarm Findings
 
 ### Frontend
