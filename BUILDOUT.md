@@ -164,6 +164,12 @@ Implemented seventeenth proactive recommendations slice:
 - Command Center now displays ranked Runtime Recommendations as operator-ready next actions.
 - Added backend service coverage for recommendation priority and action-type selection.
 
+Implemented eighteenth executable recommendations slice:
+
+- Runtime Recommendation cards now expose an action button.
+- Command Center can execute allowlisted recommendation types: goal creation, LHTK checkpointing, Nango connection recording, and ODIL conversion.
+- Review-only recommendation types remain routed through dedicated operator panels instead of mutating approvals directly.
+
 ## Swarm Findings
 
 ### Frontend
