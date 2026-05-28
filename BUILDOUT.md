@@ -330,6 +330,15 @@ Implemented thirty-eighth scheduled launch drill slice:
 - Command Center Release Candidate Gate now exposes launch drill scheduler status, cadence inputs, and enable/disable controls.
 - Added backend service coverage for launch drill scheduler status, config persistence, and scheduled sweep persistence.
 
+Implemented thirty-ninth Nango live-mode hardening slice:
+
+- Added `GET /api/v1/conscious-harness/nango/status` for Nango credential readiness.
+- Nango adapter readiness now distinguishes `live`, `configured`, and `simulated` modes from credential shape and persisted connections.
+- Nango smoke tests now include credential status, live readiness, and explicit simulated/configured/live mode reporting.
+- Launch drills now summarize live, configured, and simulated adapter counts.
+- Command Center now displays Nango credential status, adapter credential detail, and drill live/simulated counts.
+- Added backend service coverage for Nango simulated mode without a secret and live mode with a configured secret.
+
 ## Swarm Findings
 
 ### Frontend
