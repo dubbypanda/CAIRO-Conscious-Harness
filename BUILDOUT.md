@@ -339,6 +339,15 @@ Implemented thirty-ninth Nango live-mode hardening slice:
 - Command Center now displays Nango credential status, adapter credential detail, and drill live/simulated counts.
 - Added backend service coverage for Nango simulated mode without a secret and live mode with a configured secret.
 
+Implemented fortieth Hermes runner hardening slice:
+
+- Added `GET /api/v1/conscious-harness/hermes/status` for Hermes runner readiness.
+- Hermes adapter readiness now distinguishes `reference`, `local`, and `live` modes from runner configuration.
+- Hermes smoke tests now emit runner status, live readiness, and explicit reference/local/live mode reporting.
+- Launch drills now summarize local and reference adapter counts in addition to live/configured/simulated counts.
+- Command Center adapter cards now display Hermes runner detail and drill local/reference counts.
+- Added backend service coverage for Hermes reference mode by default plus local and live runner modes.
+
 ## Swarm Findings
 
 ### Frontend
