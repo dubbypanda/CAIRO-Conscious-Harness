@@ -251,6 +251,13 @@ Implemented twenty-eighth launch evidence package slice:
 - Command Center now exposes an Export Evidence control from the Launch Runbook panel.
 - Added backend service coverage for evidence package summary, audit context, readiness, runbook, and markdown content.
 
+Implemented twenty-ninth deployment preflight slice:
+
+- Added `GET /api/v1/conscious-harness/launch/preflight`.
+- Preflight now checks readiness score, required Conscious Harness migrations, launch audit trail, evidence package generation, scheduler state, integration credentials, webhook signing, OAuth secrets, capabilities, ODIL grounding, governance posture, and harness validation.
+- Command Center now displays a Deployment Preflight panel with score, status, blockers/warnings, and top checks.
+- Added backend service coverage for preflight status, score, evidence linkage, and check inventory.
+
 ## Swarm Findings
 
 ### Frontend
