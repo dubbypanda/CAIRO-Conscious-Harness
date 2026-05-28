@@ -87,6 +87,15 @@ Implemented eighth persistence foundation slice:
 - Overview now includes persisted pending approval and active harness run counts.
 - Added restart-style service coverage for persisted run and approval state, skipped only when local SQLAlchemy is unavailable.
 
+Implemented ninth ACE linkage slice:
+
+- Harness run requests can now carry optional ACE context: company, operator, tenant, priority, requested-by, and approval metadata.
+- When ACE company context is supplied, Conscious Harness creates a linked `ACERuntimeTask` with `task_type="conscious_harness_run"`.
+- Harness run persistence now stores explicit `harness_task_id`, `ace_task_id`, `ace_company_id`, `ace_operator_id`, and `tenant_id` fields.
+- Added Alembic migration `042_conscious_harness_ace_linkage`.
+- Harness run status updates now synchronize back to linked ACE runtime task status/result/error fields.
+- Added optional SQLAlchemy-backed service coverage for ACE-linked run creation and completion.
+
 ## Swarm Findings
 
 ### Frontend
