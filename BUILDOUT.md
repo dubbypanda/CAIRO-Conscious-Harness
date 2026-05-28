@@ -130,6 +130,15 @@ Implemented thirteenth DCRS capability persistence slice:
 - Command Center now loads the capability graph, displays DCRS/ODIL/Nango capabilities, and can trigger a DCRS discovery action.
 - Added optional SQLAlchemy-backed coverage for capability persistence across service restarts.
 
+Implemented fourteenth runtime state persistence slice:
+
+- Added persistent Conscious Harness goal, task, and swarm models.
+- Added Alembic migration `046_conscious_harness_runtime_state`.
+- Goal creation, goal expansion, task creation, task status updates, swarm spawn, and swarm regeneration now persist when a DB session is available.
+- Goal status, task events, swarm DNA, and fallback Kanban reads can now load persisted runtime state after restart.
+- Overview now merges persisted active goals, running tasks, active swarms, token counters, and avoided frontier-call counts.
+- Added optional SQLAlchemy-backed coverage for restart-safe goal/task/swarm state.
+
 ## Swarm Findings
 
 ### Frontend
