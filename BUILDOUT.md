@@ -149,6 +149,13 @@ Implemented fifteenth execution memory persistence slice:
 - Overview now merges persisted high/critical security alert counts.
 - Added optional SQLAlchemy-backed coverage for restart-safe checkpoints and security audit events.
 
+Implemented sixteenth execution memory Command Center slice:
+
+- Command Center now loads persisted security audit events from `/security/audit`.
+- Command Center now loads LHTK checkpoints for the current active harness task.
+- Added a `Create LHTK Checkpoint` action that captures task state, active run count, approval pressure, sharpness, and entropy.
+- Added LHTK Checkpoints and Security Audit panels for operator visibility.
+
 ## Swarm Findings
 
 ### Frontend
