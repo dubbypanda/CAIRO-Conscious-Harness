@@ -220,6 +220,14 @@ Implemented twenty-fourth readiness checklist slice:
 - Command Center now displays a Buildout Readiness panel with score, status, and per-area checks.
 - Added backend service coverage for readiness report shape and status values.
 
+Implemented twenty-fifth launch runbook slice:
+
+- Added `GET /api/v1/conscious-harness/launch/runbook`.
+- Derived launch phases and operator actions from readiness blockers, readiness warnings, runtime recommendations, and scheduler state.
+- Included markdown export content for launch review/checklist handoff.
+- Command Center now displays launch phases, status, blocked action count, and top operator actions.
+- Added backend service coverage for runbook status, actions, phases, and export content.
+
 ## Swarm Findings
 
 ### Frontend
