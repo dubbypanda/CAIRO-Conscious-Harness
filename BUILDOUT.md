@@ -303,6 +303,15 @@ Implemented thirty-fifth adapter smoke-test slice:
 - Command Center Adapter Readiness cards now expose Smoke Test controls.
 - Added backend service coverage for allowlisted Nango, MarkItDown, and Codex smoke-test paths.
 
+Implemented thirty-sixth adapter smoke-test history slice:
+
+- Added the persistent `ch_adapter_smoke_tests` model and migration `052_conscious_harness_adapter_smoke_tests`.
+- Added `GET /api/v1/conscious-harness/launch/adapters/smoke-tests` for persisted adapter smoke-test history.
+- Adapter smoke tests now persist running and terminal results so history survives service restarts.
+- Adapter readiness now returns each adapter's latest smoke test plus recent smoke-test history.
+- Command Center now displays latest adapter smoke-test status and recent smoke-test history.
+- Added backend service coverage for DB-backed smoke-test persistence and readiness hydration.
+
 ## Swarm Findings
 
 ### Frontend
