@@ -139,6 +139,16 @@ Implemented fourteenth runtime state persistence slice:
 - Overview now merges persisted active goals, running tasks, active swarms, token counters, and avoided frontier-call counts.
 - Added optional SQLAlchemy-backed coverage for restart-safe goal/task/swarm state.
 
+Implemented fifteenth execution memory persistence slice:
+
+- Added persistent LHTK checkpoint and Conscious Harness security event models.
+- Added Alembic migration `047_conscious_harness_execution_memory`.
+- LHTK checkpoint create/list endpoints now persist and read checkpoint state when DB is available.
+- Security risk scoring now persists actor, action, risk, approval requirement, metadata, and timestamp.
+- Security audit reads now load persisted audit events after restart.
+- Overview now merges persisted high/critical security alert counts.
+- Added optional SQLAlchemy-backed coverage for restart-safe checkpoints and security audit events.
+
 ## Swarm Findings
 
 ### Frontend
