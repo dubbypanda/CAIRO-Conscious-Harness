@@ -348,6 +348,15 @@ Implemented fortieth Hermes runner hardening slice:
 - Command Center adapter cards now display Hermes runner detail and drill local/reference counts.
 - Added backend service coverage for Hermes reference mode by default plus local and live runner modes.
 
+Implemented forty-first ACE adapter linkage hardening slice:
+
+- Added `GET /api/v1/conscious-harness/ace/status` for Autonomous Companies runtime linkage readiness.
+- ACE adapter readiness now distinguishes `available`, `linked`, and `live` modes from active ACE companies, board tasks, and linked harness runs.
+- ACE smoke tests now emit runner status, live readiness, board task count, and explicit available/linked/live mode reporting.
+- Launch drills now summarize linked and available adapter counts.
+- Command Center drill cards now display linked/available adapter counts, and ACE adapter cards reuse runner readiness detail.
+- Added backend service coverage for ACE available mode by default and live mode through ACE runtime task linkage.
+
 ## Swarm Findings
 
 ### Frontend
