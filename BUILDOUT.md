@@ -296,6 +296,13 @@ Implemented thirty-fourth adapter readiness registry slice:
 - Command Center now displays Adapter Readiness with live count, ready count, status, modes, and evidence.
 - Added backend service coverage for adapter readiness registry and Codex validation evidence.
 
+Implemented thirty-fifth adapter smoke-test slice:
+
+- Added `POST /api/v1/conscious-harness/launch/adapters/{adapter_id}/smoke-test`.
+- Adapter smoke tests now run safe validation paths for Nango, MarkItDown/ODIL, Codex, Hermes reference capability, and ACE task-board availability.
+- Command Center Adapter Readiness cards now expose Smoke Test controls.
+- Added backend service coverage for allowlisted Nango, MarkItDown, and Codex smoke-test paths.
+
 ## Swarm Findings
 
 ### Frontend
