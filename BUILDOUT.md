@@ -281,6 +281,13 @@ Implemented thirty-second deployment manifest slice:
 - Command Center Deployment Preflight now includes an Export Manifest control.
 - Added backend service coverage for manifest env vars, migrations, services, commands, profile, and markdown content.
 
+Implemented thirty-third release candidate gate slice:
+
+- Added `GET /api/v1/conscious-harness/launch/release-candidate`.
+- Release candidate gate now rolls up deployment manifest, preflight, evidence package, launch profile, blockers, and warnings into `demo-ready`, `alpha-ready`, or `blocked`.
+- Command Center now displays a Release Candidate Gate panel with verdict, score, blockers, and criteria.
+- Added backend service coverage for release candidate verdict, evidence linkage, manifest linkage, profile, and criteria.
+
 ## Swarm Findings
 
 ### Frontend
