@@ -288,6 +288,14 @@ Implemented thirty-third release candidate gate slice:
 - Command Center now displays a Release Candidate Gate panel with verdict, score, blockers, and criteria.
 - Added backend service coverage for release candidate verdict, evidence linkage, manifest linkage, profile, and criteria.
 
+Implemented thirty-fourth adapter readiness registry slice:
+
+- Added `GET /api/v1/conscious-harness/launch/adapters`.
+- Adapter readiness now distinguishes live, configured, modeled, software-fallback, registered, reference, and available modes for Nango, MarkItDown, Codex, Hermes, and ACE.
+- Adapter registry derives readiness from persisted Nango connections, ODIL documents, harness runs, ACE linkage, capabilities, and launch environment.
+- Command Center now displays Adapter Readiness with live count, ready count, status, modes, and evidence.
+- Added backend service coverage for adapter readiness registry and Codex validation evidence.
+
 ## Swarm Findings
 
 ### Frontend
