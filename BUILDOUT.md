@@ -244,6 +244,13 @@ Implemented twenty-seventh launch execution audit slice:
 - Command Center now displays recent launch execution history beneath the Launch Runbook actions.
 - Added DB-backed backend service coverage for persisted launch execution history.
 
+Implemented twenty-eighth launch evidence package slice:
+
+- Added `GET /api/v1/conscious-harness/launch/evidence`.
+- Evidence packages now bundle readiness, runbook, launch executions, recommendation executions, recommendation heartbeats, approvals, security events, harness runs, ODIL documents, capabilities, scheduler state, summary counts, and markdown handoff content.
+- Command Center now exposes an Export Evidence control from the Launch Runbook panel.
+- Added backend service coverage for evidence package summary, audit context, readiness, runbook, and markdown content.
+
 ## Swarm Findings
 
 ### Frontend
