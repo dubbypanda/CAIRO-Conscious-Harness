@@ -197,6 +197,13 @@ Implemented twenty-first scheduled heartbeat slice:
 - Wired the loop into FastAPI startup behind the enable flag.
 - Added scheduler sweep coverage to verify scheduled heartbeats persist snapshots.
 
+Implemented twenty-second scheduler status visibility slice:
+
+- Added `GET /api/v1/conscious-harness/recommendations/scheduler/status`.
+- Scheduler status reports enablement, interval, startup delay, latest heartbeat, heartbeat count, and latest state.
+- Command Center now displays scheduler status, cadence, startup delay, and heartbeat count in the Runtime Recommendations panel.
+- Added backend service coverage for scheduler status shape.
+
 ## Swarm Findings
 
 ### Frontend
