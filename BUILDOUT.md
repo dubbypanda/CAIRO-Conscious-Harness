@@ -69,6 +69,14 @@ Implemented sixth governance slice:
 - Added Command Center control for exercising the approval gate.
 - Added backend service coverage for high-risk harness approval flow.
 
+Implemented seventh operator visibility slice:
+
+- Command Center now loads live harness runs from `/api/v1/conscious-harness/harness/runs`.
+- Command Center now loads live approvals from `/api/v1/conscious-harness/approvals`.
+- Added an Approval Queue panel with approve/reject actions for pending high-risk runs.
+- Added a Harness Runs panel with run status, capability, risk level, and a complete-run action.
+- Changed the approval control from auto-approve to queue-first operator review.
+
 ## Swarm Findings
 
 ### Frontend
