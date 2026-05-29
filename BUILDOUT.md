@@ -391,6 +391,14 @@ Implemented forty-fifth production health snapshot slice:
 - Command Center now shows a Production Health panel with launch profile, latest validation decision, scheduler states, connector states, and top health checks.
 - Added backend service coverage for production health snapshots.
 
+Implemented forty-sixth production smoke snapshot slice:
+
+- Added `GET /api/v1/conscious-harness/health/smoke` for final production smoke contract checks.
+- Smoke snapshots validate readiness, production health, deployment preflight, deployment manifest, launch evidence, release candidate gate, adapter readiness, and launch audit package contracts.
+- Smoke results include pass/fail counts, per-contract details, release verdict, adapter status, health status, and audit package linkage.
+- Command Center Production Health now exposes Run Smoke and displays the latest smoke status, pass count, release verdict, and audit package id.
+- Added backend service coverage for production smoke snapshots.
+
 ## Swarm Findings
 
 ### Frontend
