@@ -1,258 +1,278 @@
+<p align="center">
+  <img src="assets/cairo-conscious-harness-hero.svg" alt="CAIRO Conscious Harness" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/cairo-logo-gradient.svg" alt="Cairo logo" width="96">
+</p>
+
 # CAIRO Conscious Harness
 
-**Software-first Operational Consciousness Infrastructure.**
+<p align="center">
+  <a href="https://colomboai-com.github.io/CAIRO-Conscious-Harness/"><img src="https://img.shields.io/badge/GitHub%20Pages-live-6EA8FF?style=for-the-badge" alt="GitHub Pages"></a>
+  <a href="https://cairo.colomboai.com"><img src="https://img.shields.io/badge/WebUI-cairo.colomboai.com-7C5CFF?style=for-the-badge" alt="Cairo WebUI"></a>
+  <a href="https://cairo.sh"><img src="https://img.shields.io/badge/CLI-cairo.sh-35D0FF?style=for-the-badge" alt="Cairo CLI"></a>
+  <img src="https://img.shields.io/badge/Status-active%20buildout-20C997?style=for-the-badge" alt="Active buildout">
+</p>
 
-CAIRO Conscious Harness is the next major evolution of Cairo: a proactive, software-first, self-healing, token-efficient, multi-model, multi-harness runtime for operating real workflows, companies, swarms, documents, integrations, and long-horizon tasks.
+**CAIRO Conscious Harness is the next-generation AI agent harness for software-first operational intelligence.** It turns user goals into governed execution across models, swarms, tools, memory, codebases, documents, autonomous companies, and enterprise systems.
 
-It is not another chatbot, agent framework, coding copilot, or workflow automation tool. CAIRO is designed to become the operational layer above users, companies, AI harnesses, enterprise systems, autonomous companies, and connected software ecosystems.
+CAIRO is designed around one simple principle:
 
-[Open the GitHub Pages site](https://colomboai-com.github.io/CAIRO-Conscious-Harness/)
+> Users should not prompt agents. CAIRO prompts agents for users.
 
-## Core Thesis
+Most AI products still expect people to know prompt engineering, context engineering, model routing, tool selection, and workflow design. CAIRO moves that burden into the platform. A user gives a goal. CAIRO expands it, routes it, decomposes it, assigns agents, executes through governed tools, verifies outputs, learns from the run, and improves the next run.
 
-Most AI systems are LLM-first. Prompts become the operating system, model calls happen constantly, and cost, latency, hallucination risk, and context bloat scale with usage.
+[Open the public site](https://colomboai-com.github.io/CAIRO-Conscious-Harness/) | [Use Cairo WebUI](https://cairo.colomboai.com) | [Visit Cairo.sh](https://cairo.sh) | [Read the buildout tracker](BUILDOUT.md)
 
-CAIRO reverses that architecture:
+---
 
-1. Software executes first.
-2. Deterministic workflows and state machines run first.
-3. Memory and cached intelligence are used before inference.
-4. Local and smaller models evaluate before larger models.
-5. ColomboAI-MC-1 and frontier models are escalation layers, not defaults.
+## About
 
-The result is a runtime optimized for:
+CAIRO Conscious Harness is not just a chatbot, coding assistant, agent framework, workflow builder, or model router.
 
-- maximum operational intelligence per token,
-- governed autonomous execution,
-- long-horizon continuity,
-- enterprise synchronization,
-- self-healing operations,
-- and meta-harness orchestration.
+It is an operational layer for intelligent work:
+
+| Layer | What CAIRO does |
+| --- | --- |
+| Goal layer | Converts natural user goals into expanded intent, task graphs, execution policies, and measurable outcomes. |
+| Prompt layer | Generates, compresses, optimizes, and evolves prompts for agents so users do not have to. |
+| Model layer | Routes across software, local models, ColomboAI-MC-1, OpenRouter, Ollama, Hugging Face, and frontier providers. |
+| Agent layer | Assigns Cairo Operator, Cairo Code, Cairo Software Engineer, autonomous company operators, and specialist swarms. |
+| Tool layer | Connects plugins, MCPs, browser, terminal, files, documents, databases, APIs, and enterprise systems. |
+| Memory layer | Records operational memory, prompt DNA, execution DNA, user preferences, learned workflows, and long-horizon checkpoints. |
+| Governance layer | Keeps actions observable, permissioned, reversible where possible, auditable, and security-aware. |
+
+---
+
+## Core Innovations
+
+| Innovation | Purpose |
+| --- | --- |
+| **Software-First Intelligence** | Uses deterministic software, cached state, memory, local models, and smaller models before expensive frontier inference. |
+| **Conscious Prompt Orchestration Protocol (CPOP)** | Converts goals into intent, task graphs, optimized prompts, agent assignments, prompt compression, and prompt DNA. |
+| **Cognitive Orchestration Layer (COL)** | Sits between the user and agents so CAIRO, not the user, performs prompt engineering, context engineering, and workflow design. |
+| **Model Intelligence Layer** | Lets CAIRO choose the right model hierarchy by default while giving users control over custom model routing. |
+| **Chain Swarm Intelligence Protocol (CSIP)** | Coordinates long-horizon swarms, role assignment, regeneration, memory inheritance, and execution continuity. |
+| **Operational DNA** | Captures successful execution patterns so future runs inherit what worked instead of starting from scratch. |
+| **Prompt DNA** | Stores proven prompt structures, tool patterns, context strategies, and evaluation results for future tasks. |
+| **ODIL Document Intelligence** | Uses document conversion and operational extraction so PDFs, docs, slides, sheets, and knowledge assets become executable context. |
+| **DCRS + Nango Connectivity** | Provides governed connector readiness for external business systems, APIs, and cross-application workflows. |
+| **Self-Configuration Protocol (SCP)** | Lets users opt in to Cairo-recommended tools, skills, MCPs, models, workflows, security settings, and memory configuration. |
+| **Generative UI Outputs** | Moves beyond plain text into interactive, inspectable, task-aware outputs for operator workflows. |
+| **Security and Self-Healing** | Adds readiness for sandboxed execution, risk scoring, audit trails, scanner adapters, recovery loops, and operational repair. |
+
+---
+
+## Why It Matters
+
+The old agent pattern is:
+
+```text
+Human -> Prompt -> Agent -> Result
+```
+
+CAIRO is built for the next pattern:
+
+```text
+Human Goal
+  -> Intent Analysis
+  -> Goal Expansion
+  -> Task Graph
+  -> Prompt Generation
+  -> Model Routing
+  -> Agent and Swarm Assignment
+  -> Governed Execution
+  -> Verification
+  -> Memory
+  -> Prompt and Operational Evolution
+  -> Outcome
+```
+
+That shift is the difference between asking AI for help and operating with an AI system.
+
+---
+
+## Comparative Matrix
+
+This table is not meant to diminish excellent tools like Hermes, Codex, or Claude Code. They each push the field forward. CAIRO's goal is to combine the strongest agent patterns into a broader operational harness.
+
+| Capability | Hermes Agent | Codex | Claude Code | Typical agent frameworks | CAIRO Conscious Harness |
+| --- | --- | --- | --- | --- | --- |
+| Primary shape | Self-improving personal agent | Coding and task workspace | Coding agent | Agent SDKs and examples | Full operational AI harness |
+| User interaction | User prompts agent | User asks coding/task agent | User asks coding agent | Developer wires flows | User gives goals; CAIRO engineers execution |
+| Prompt orchestration | Strong learning loop | Task context and tool use | Strong code context | Usually manual | CPOP, prompt DNA, compression, goal expansion |
+| Model routing | Multi-provider support | Platform-managed | Provider-managed | Developer-defined | Model Intelligence Layer with default and custom routing |
+| Software-first execution | Runtime and tools | Strong for code tasks | Strong for code tasks | Varies | Core platform principle across all work |
+| Swarm intelligence | Subagents and workflows | Subagents in workspace | Agentic coding flows | Often custom | CSIP long-horizon swarms with inherited memory |
+| Coding surface | Terminal and tools | Polished coding workspace | Polished code agent | Depends on implementation | Cairo Code plus Cairo Software Engineer |
+| Autonomous companies | Not primary focus | Not primary focus | Not primary focus | Custom build | Native product surface for autonomous company operators |
+| Connectors | Messaging and tools | Plugins and connectors | MCP ecosystem | Custom integrations | Plugins, MCPs, DCRS, Nango, enterprise-ready connectors |
+| Memory | Strong personal memory and skills | Session/project context | Project context | Varies | Operational memory, prompt DNA, execution DNA, LHTK |
+| Governance | Runtime controls | Permission controls | Permission controls | Developer-defined | Audit, approvals, policies, risk, security, self-healing |
+| Output experience | CLI, messaging, dashboard | Rich workspace | Rich terminal/editor flow | Usually text/API | Operator workspace, dashboards, generative UI, previews |
+
+---
+
+## Product Surfaces
+
+| Surface | What it is for |
+| --- | --- |
+| **Cairo Operator** | General goal execution, research, browser work, documents, workflows, and autonomous operations. |
+| **Operator Dashboard** | Live view of agent state, models, tools, memory, execution logs, safety, progress, outputs, and subagents. |
+| **Cairo Code** | Terminal-style coding surface with multiline input, command workflows, model selection, permissions, and streaming execution. |
+| **Cairo Software Engineer** | Autonomous engineering environment for large codebases, refactoring, builds, tests, secure runtime, repository state, and self-healing workflows. |
+| **Autonomous Companies** | Marketplace, company creation, installed companies, operators, and business execution systems. |
+| **Plugins and MCPs** | Plugin, skill, MCP, and marketplace management for extending Cairo capabilities. |
+| **Model Intelligence** | Default and custom model hierarchy, frontier models, OpenRouter, Ollama, Hugging Face, local models, and policy control. |
+| **Memory** | Operational memory, prompt DNA, execution history, user preferences, and long-horizon learning. |
+| **Swarm Intelligence** | Multi-agent task decomposition, specialist roles, progress, coordination, and regeneration. |
+| **Settings** | Account, billing, voice, display, remote, system, overview, permissions, environment, and platform configuration. |
+
+---
+
+## Architecture
+
+```mermaid
+flowchart TD
+    U["User goal"] --> CPOP["CPOP: Conscious Prompt Orchestration"]
+    CPOP --> COL["Cognitive Orchestration Layer"]
+    COL --> TG["Goal expansion and task graph"]
+    TG --> MIL["Model Intelligence Layer"]
+    TG --> GOV["Governance, permissions, risk, audit"]
+    MIL --> OP["Cairo Operator"]
+    MIL --> CODE["Cairo Code"]
+    MIL --> SE["Cairo Software Engineer"]
+    MIL --> AC["Autonomous Companies"]
+    OP --> TOOLS["Plugins, MCPs, browser, files, APIs"]
+    CODE --> TOOLS
+    SE --> DEV["VS Code, terminal, WSL, secure runtime, repo tools"]
+    AC --> DCRS["DCRS + Nango connectors"]
+    TOOLS --> VERIFY["Verify, score, summarize"]
+    DEV --> VERIFY
+    DCRS --> VERIFY
+    VERIFY --> MEMORY["Operational memory, prompt DNA, execution DNA"]
+    MEMORY --> CPOP
+    MEMORY --> CSIP["CSIP swarm continuity"]
+    CSIP --> OP
+    CSIP --> SE
+```
+
+---
 
 ## Runtime Loop
 
-Every execution follows the Conscious Runtime cycle:
+Every CAIRO run follows the Conscious Runtime cycle:
 
 ```mermaid
 flowchart LR
-    A[Observe] --> B[Understand]
-    B --> C[Plan]
-    C --> D[Execute]
-    D --> E[Verify]
-    E --> F[Learn]
-    F --> G[Heal]
-    G --> H[Optimize]
+    A["Observe"] --> B["Understand"]
+    B --> C["Plan"]
+    C --> D["Execute"]
+    D --> E["Verify"]
+    E --> F["Learn"]
+    F --> G["Heal"]
+    G --> H["Optimize"]
     H --> A
 ```
 
-## Product Surface
+---
 
-CAIRO Conscious Harness is desktop-first, with CLI and file-based configuration for advanced users.
+## Install and Access
 
-| Surface | Modules |
-| --- | --- |
-| Desktop Experience | Command Center, Chat + Agent Workspace, Kanban Task Board, In-App Browser, Terminal Panel, Goals Center, Swarm View, Harness Control Panel, Autonomous Companies Workspace, Integrations Center, Memory Graph, Efficiency Dashboard, Security Center, Settings |
-| Terminal / CLI | `cairo app`, `cairo run`, `cairo goal`, `cairo task`, `cairo swarm`, `cairo harness`, `cairo dcrs`, `cairo nango`, `cairo memory`, `cairo efficiency`, `cairo security`, `cairo config` |
-| Configuration | Global `~/.cairo-conscious/config/*.yaml` plus project-level `project/.cairo/*.yaml` |
+### WebUI
 
-## Current Build Status
+The fastest way to try CAIRO is through the web experience:
 
-The CAIRO Conscious Harness build-out is now in the final production-hardening lane. The active implementation includes:
+- [https://cairo.colomboai.com](https://cairo.colomboai.com)
+- [https://cairo.sh](https://cairo.sh)
+- [GitHub Pages overview](https://colomboai-com.github.io/CAIRO-Conscious-Harness/)
 
-- Command Center runtime surface in `cairo-ui`.
-- Conscious Harness service layer in `cairo-backend`.
-- Goal, task, swarm, approval, security, ODIL, Nango, DCRS capability, LHTK checkpoint, harness-run, and recommendation flows.
-- ACE runtime linkage for Autonomous Companies tasks and operators.
-- Codex, Hermes, ACE, Nango, and MarkItDown adapter readiness reporting.
-- Integration readiness expansion for Codex-like preview, CopilotKit generative UI, Microsoft SkillOpt self-evolving skills, and Shannon/Trivy/PentAGI/Redamon security and self-healing adapters.
-- Recommendation heartbeat scheduler and launch drill scheduler controls.
-- Launch runbook, launch actions, execution audit, evidence package, deployment preflight, deployment manifest, release candidate gate, launch drills, launch validation, validation history, launch audit export, production health, and production smoke checks.
+### Developer Preview: Windows
 
-The remaining work before production completion is environment validation: run the contracts against the deployed database, set and verify live credentials, execute browser-level UI smoke testing, and confirm the live Nango/Hermes/ACE paths in the target deployment.
-
-## High-Level Architecture
-
-| Layer | Purpose |
-| --- | --- |
-| Desktop Experience | Operational command surface for goals, tasks, swarms, companies, harnesses, memory, security, integrations, and efficiency |
-| Conscious Runtime Core | Intent routing, goal planning, task graph execution, verification, learning, self-healing, and optimization |
-| Conscious Efficiency Engine | Native execution, local processing, model routing, token metering, context compression, caching, and routing policy |
-| Model Intelligence Layer | Layer 0 software, Layer 1 local models, Layer 2 ColomboAI-MC-1 / OpenRouter / Ollama, Layer 3 frontier providers |
-| Operational Connectivity | DCRS, Nango, MCP-RAG, Scraping2Tools, SiteMap2Tools, and EIL |
-| Operational Document Intelligence | MarkItDown normalization, workflow extraction, entity extraction, knowledge compression, and memory graph writing |
-| Long-Horizon Execution | CSIP, Swarm Regeneration, Operational DNA, EMP, and LHTK |
-| Meta-Harness Layer | Hermes, Codex-style agents and preview, CopilotKit generative UI, Claude Code, OpenClaw, SkillOpt-style evolving skills, browser agents, and custom harness SDK |
-| Autonomous Companies Layer | ACDL, UAPE, Operator Runtime, Company Wiki, Standing Goals, Marketplace, and Company Workspaces |
-| Governance + Security | Risk engine, approval gates, permissions, audit logs, kill switch, policy engine, prompt firewall, Shannon, Trivy, PentAGI, Redamon, and self-healing adapters |
-
-## Model Routing
-
-CAIRO follows:
-
-```text
-software first -> local model -> CAIRO intelligence -> optional gateways -> frontier labs
+```powershell
+git clone https://github.com/ColomboAI-com/CAIRO-Conscious-Harness.git
+cd CAIRO-Conscious-Harness
 ```
 
-| Layer | Default Role |
-| --- | --- |
-| Layer 0: Native Software Execution | Deterministic workflows, scheduling, routing, synchronization, permissions, notifications, governance, and task graph updates |
-| Layer 1: Local Conscious Processor | Intent classification, lightweight planning, workflow matching, routing, memory ranking, document preprocessing support, security pre-checks, and offline reasoning |
-| Layer 2: CAIRO / Open Ecosystem Intelligence | ColomboAI-MC-1 for advanced CAIRO reasoning, with OpenRouter and Ollama as optional routing paths |
-| Layer 3: Frontier Lab Compatibility | OpenAI GPT models, Anthropic Claude models, Google Gemini models, and other frontier providers for tasks that truly require them |
+For the full local platform, run the backend and UI repositories used by the active product:
 
-Non-negotiable rule: never escalate to a larger or more expensive model unless the lower layer cannot complete the task safely, accurately, or efficiently.
-
-## ODIL: Operational Document Intelligence Layer
-
-ODIL uses MarkItDown as a software-first preprocessing layer before expensive inference. CAIRO converts PDFs, Word documents, PowerPoints, spreadsheets, HTML, images, transcripts, and enterprise documentation into clean operational Markdown before reasoning over them.
-
-ODIL enables:
-
-- markdown normalization,
-- workflow extraction,
-- entity extraction,
-- operational summarization,
-- knowledge compression,
-- operational graph generation,
-- structured memory generation,
-- DCRS capability discovery,
-- and swarm communication normalization.
-
-Instead of feeding raw documents into models, CAIRO converts documents into compressed operational knowledge that can be stored, linked, ranked, and reused.
-
-## Long-Horizon Intelligence
-
-CAIRO treats long-horizon execution as a systems-engineering problem, not only a bigger-model problem.
-
-| System | Function |
-| --- | --- |
-| CSIP: Chain Swarm Intelligence Protocol | Spawns fresh swarm generations as work expands, transferring validated state instead of bloated context |
-| Swarm Regeneration | Monitors hallucination probability, context entropy, memory saturation, degraded reasoning, and execution drift |
-| Operational DNA | Preserves strategic objectives, workflow identity, governance rules, tool preferences, learned optimization patterns, and memory abstractions |
-| EMP: Engineered Memory Protocol | Stores active working memory, strategic memory, long-term operational memory, and archived historical memory as operational abstractions |
-| LHTK: Long-Horizon Task Kernel | Handles checkpointing, entropy monitoring, sharpness scoring, regeneration, state compression, and recovery |
-
-## Universal Operational Connectivity
-
-DCRS evolves into the Universal Operational Connectivity Layer, while Nango becomes the authenticated operational gateway.
-
-Together they allow CAIRO to:
-
-- discover capabilities dynamically,
-- authenticate through OAuth,
-- synchronize SaaS and enterprise systems,
-- process webhooks and event streams,
-- generate tools and orchestration paths,
-- and execute across Gmail, Slack, Salesforce, GitHub, Notion, Stripe, Shopify, Jira, HubSpot, Google Workspace, Microsoft systems, CRMs, ERPs, and custom APIs.
-
-This gives CAIRO live operational reality instead of isolated prompt context.
-
-## Core Services
-
-```http
-POST /runtime/intent
-POST /runtime/plan
-POST /runtime/execute
-POST /runtime/verify
-POST /runtime/heal
-POST /runtime/optimize
-GET  /runtime/timeline/:task_id
-
-POST /goals
-POST /goals/:id/expand
-POST /goals/:id/assign
-GET  /goals/:id/graph
-GET  /goals/:id/status
-
-POST /tasks
-POST /tasks/:id/assign
-POST /tasks/:id/status
-GET  /tasks/kanban
-GET  /tasks/:id/events
-
-POST /swarms/spawn
-POST /swarms/:id/handoff
-POST /swarms/:id/regenerate
-GET  /swarms/:id/status
-GET  /swarms/:id/dna
-
-POST /lhtk/checkpoint
-POST /lhtk/entropy
-POST /lhtk/regenerate
-GET  /lhtk/:task_id/state
-GET  /lhtk/:task_id/checkpoints
-
-POST /efficiency/route
-POST /efficiency/compress
-POST /efficiency/cache
-GET  /efficiency/report
-GET  /efficiency/savings
-
-POST /odil/ingest
-POST /odil/convert
-POST /odil/extract-workflows
-POST /odil/write-memory
-GET  /odil/documents/:id
-
-POST /dcrs/discover
-GET  /dcrs/capabilities
-POST /dcrs/route
-POST /nango/connect
-GET  /nango/connections
-POST /nango/sync
-POST /nango/webhook
-
-POST /harness/register
-GET  /harness/list
-POST /harness/:id/run
-POST /harness/:id/benchmark
-GET  /harness/:id/status
-
-POST /security/risk
-POST /security/approve
-POST /security/deny
-POST /security/kill
-GET  /security/audit
-GET  /security/policies
+```powershell
+git clone https://github.com/ColomboAI-com/cairo-backend.git
+git clone https://github.com/ColomboAI-com/cairo-ui.git
 ```
 
-## Implemented Launch Control API
+Recommended local dependencies:
 
-The current build adds a production launch-control surface under:
+- Windows 10/11
+- PowerShell
+- Git
+- Node.js 22+
+- Python 3.11+
+- WSL 2 for Linux runtime workflows
+- Visual Studio Code for Cairo Software Engineer handoff
 
-```http
-GET  /api/v1/conscious-harness/health
-GET  /api/v1/conscious-harness/health/smoke
-GET  /api/v1/conscious-harness/readiness
-GET  /api/v1/conscious-harness/launch/runbook
-GET  /api/v1/conscious-harness/launch/evidence
-GET  /api/v1/conscious-harness/launch/preflight
-POST /api/v1/conscious-harness/launch/preflight/actions/execute
-GET  /api/v1/conscious-harness/launch/manifest
-GET  /api/v1/conscious-harness/launch/release-candidate
-GET  /api/v1/conscious-harness/launch/drills
-POST /api/v1/conscious-harness/launch/drills
-GET  /api/v1/conscious-harness/launch/drills/scheduler/status
-POST /api/v1/conscious-harness/launch/drills/scheduler/config
-GET  /api/v1/conscious-harness/launch/validation
-POST /api/v1/conscious-harness/launch/validation
-GET  /api/v1/conscious-harness/launch/validations
-GET  /api/v1/conscious-harness/launch/audit-package
-GET  /api/v1/conscious-harness/launch/adapters
-POST /api/v1/conscious-harness/launch/adapters/smoke-tests
-GET  /api/v1/conscious-harness/launch/adapters/smoke-tests
+### Developer Preview: macOS
+
+```bash
+git clone https://github.com/ColomboAI-com/CAIRO-Conscious-Harness.git
+cd CAIRO-Conscious-Harness
 ```
 
-## Integration Readiness Expansion
+For the full local product:
 
-The integration-expansion slice keeps new adapters registry-first and approval-gated before runtime execution:
+```bash
+git clone https://github.com/ColomboAI-com/cairo-backend.git
+git clone https://github.com/ColomboAI-com/cairo-ui.git
+```
 
-| Adapter | Planned Role |
-| --- | --- |
-| Codex-like preview | Governed live preview and artifact inspection for harness runs |
-| CopilotKit generative UI | Auditable generative UI paths for operator-facing workflows |
-| Microsoft SkillOpt | Self-evolving skill evaluation with benchmarks, approval gates, and rollback |
-| Shannon, Trivy, PentAGI, Redamon | Security scanning, adversarial validation, and self-healing coverage through existing risk, smoke-test, validation, and audit surfaces |
+Recommended local dependencies:
+
+- macOS 13+
+- Git
+- Node.js 22+
+- Python 3.11+
+- Docker for containerized runtime paths
+- Visual Studio Code
+
+### Developer Preview: Linux
+
+```bash
+git clone https://github.com/ColomboAI-com/CAIRO-Conscious-Harness.git
+cd CAIRO-Conscious-Harness
+```
+
+For the full local product:
+
+```bash
+git clone https://github.com/ColomboAI-com/cairo-backend.git
+git clone https://github.com/ColomboAI-com/cairo-ui.git
+```
+
+Recommended local dependencies:
+
+- Ubuntu 22.04+ or equivalent
+- Git
+- Node.js 22+
+- Python 3.11+
+- Docker
+- Visual Studio Code or compatible editor
+
+> Installer automation is part of the platform roadmap. Until the installer is published, the WebUI is the fastest access path and the developer-preview path uses the Cairo backend and Cairo UI repositories directly.
+
+---
+
+## Quick Start
+
+1. Open [Cairo WebUI](https://cairo.colomboai.com) or a local Cairo UI build.
+2. Start with a goal, not a prompt.
+3. Choose the default model routing policy or configure Model Intelligence manually.
+4. Turn on optional protocols such as SCP or CPOP where appropriate.
+5. Let CAIRO expand the goal, create a task graph, assign agents, select tools, and execute.
+6. Inspect progress, outputs, sources, files, terminal traces, and memory in the workspace.
+7. Promote successful runs into prompt DNA, operational DNA, skills, MCPs, or autonomous company workflows.
+
+---
 
 ## Conscious Home Folder
 
@@ -263,6 +283,13 @@ CAIRO introduces a transparent local operational filesystem:
   config/
   identity/
   memory/
+  prompts/
+    templates/
+    dna/
+    optimizations/
+    histories/
+    benchmarks/
+    evaluations/
   efficiency/
   odil/
   skills/
@@ -276,53 +303,85 @@ CAIRO introduces a transparent local operational filesystem:
   security/
   sessions/
   plugins/
+  mcps/
   hooks/
   themes/
   ui/
   logs/
 ```
 
-## 72-Hour MVP Demo
+---
 
-The MVP should demonstrate:
+## API and Runtime Readiness
 
-1. User opens the clean CAIRO Desktop.
-2. User selects a model routing strategy.
-3. User creates a goal.
-4. CAIRO expands it into a task graph.
-5. Tasks appear on the Kanban board.
-6. CAIRO routes through software-first policy.
-7. A local model processes intent first.
-8. MC-1 handles advanced orchestration.
-9. MarkItDown converts a document into operational Markdown.
-10. DCRS + Nango sync an external app.
-11. EIL triggers an event-driven workflow.
-12. A swarm executes a task.
-13. LHTK checkpoints and regenerates the swarm.
-14. The Efficiency Dashboard shows tokens saved.
-15. The Security Center shows approval and risk.
-16. The in-app browser extracts tools from a page.
-17. Terminal runs an optional advanced command.
-18. The Harness Panel shows Codex, Hermes, and OpenClaw adapters.
+The active implementation connects the public Harness concept to the broader Cairo platform:
+
+| Area | Example contracts |
+| --- | --- |
+| Harness health | `/api/v1/conscious-harness/health`, `/readiness`, `/health/smoke` |
+| Launch control | `/launch/runbook`, `/launch/preflight`, `/launch/manifest`, `/launch/release-candidate` |
+| Evidence and audit | `/launch/evidence`, `/launch/audit-package`, `/security/audit` |
+| Models | `/v1/models`, model routing policy, custom routing order |
+| Plugins and MCPs | plugin registry, marketplace registry, skill creation, MCP creation |
+| Memory and swarm | memory aggregate, swarm aggregate, long-horizon checkpoints |
+| Software engineer | repository scan, tool readiness, secure runtime, mission creation, execution loop |
+
+---
 
 ## Engineering Laws
 
 1. **Software first:** never call a frontier LLM if software can solve the task.
-2. **Smallest intelligence first:** use the smallest capable layer before escalation.
-3. **Continuous optimization:** every workflow should become more efficient over time.
-4. **Proactive intelligence:** CAIRO should not wait for prompts when autonomous action is safe and useful.
-5. **Self-healing operations:** failures should trigger repair before escalation.
-6. **Meta-harness orchestration:** CAIRO should govern and operate external harnesses.
-7. **Governance by default:** every action must be observable, controllable, auditable, reversible where possible, and safe.
+2. **Smallest capable intelligence first:** use the cheapest reliable layer before escalation.
+3. **Goal over prompt:** users define outcomes; CAIRO engineers the execution.
+4. **Memory compounds:** every successful workflow should improve future workflows.
+5. **Governance by default:** actions must be observable, controllable, auditable, and safe.
+6. **Self-healing operations:** failures should trigger repair before escalation.
+7. **Open extensibility:** plugins, skills, MCPs, models, and connectors should extend the platform without fragmenting it.
 
-## Open Source Strategy
+---
 
-The Conscious Harness core is intended to be open source to maximize adoption, contributors, ecosystem growth, developer mindshare, distribution, and community participation.
+## Status
 
-Distribution channels include GitHub, Hugging Face, OpenRouter, AI communities, research ecosystems, and developer communities. Monetization paths include Cairo Cloud, enterprise orchestration, managed deployments, sovereign infrastructure, premium governance, hosted runtime services, and Autonomous Companies.
+CAIRO Conscious Harness is in active buildout and production hardening. The current work spans:
+
+- Cairo Operator workspace polish and backend wiring.
+- Cairo Software Engineer runtime, secure execution, repository readiness, and developer tool integration.
+- Model Intelligence, default/custom routing, and provider catalogs.
+- Plugins, skills, MCPs, and marketplace creation.
+- CPOP, SCP, swarm intelligence, memory, and prompt DNA.
+- DCRS, Nango, ODIL, document intelligence, and enterprise connectors.
+- Security, self-healing, readiness, smoke checks, and audit surfaces.
+
+The next hardening lane is live environment validation: deployed database contracts, live credentials, browser-level UI smoke testing, connector activation, end-to-end authorization, and CI-backed contract tests across every sidebar feature.
+
+---
 
 ## Repository Contents
 
 - `index.html` - GitHub Pages site.
 - `styles.css` - Responsive visual system for the public page.
 - `script.js` - Lightweight animated runtime telemetry for the architecture visual.
+- `BUILDOUT.md` - Implementation tracker and launch-readiness notes.
+- `assets/cairo-conscious-harness-hero.svg` - README hero banner.
+- `assets/cairo-logo-gradient.svg` - Official Cairo gradient logo for light and dark surfaces.
+- `assets/cairo-logo-white.svg` - Official Cairo white logo for dark surfaces.
+
+---
+
+## Open Source Strategy
+
+The Conscious Harness core is intended to maximize adoption, contributor velocity, ecosystem growth, developer mindshare, and community participation.
+
+CAIRO is built for the future where:
+
+```text
+Goal -> CAIRO -> Outcome
+```
+
+not:
+
+```text
+Goal -> prompt engineering -> tool engineering -> retries -> context repair -> result
+```
+
+That is the mission of CAIRO Conscious Harness.
