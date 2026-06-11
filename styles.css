@@ -206,11 +206,93 @@ p {
   box-shadow: var(--shadow);
 }
 
-.runtime-visual canvas {
-  display: block;
-  width: 100%;
-  height: 100%;
+.runtime-map {
+  position: relative;
   min-height: 520px;
+  padding: 34px;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(114, 87, 255, 0.34), transparent 32%),
+    radial-gradient(circle at 22% 20%, rgba(39, 199, 216, 0.22), transparent 24%),
+    radial-gradient(circle at 78% 72%, rgba(66, 199, 123, 0.16), transparent 28%),
+    #111827;
+}
+
+.runtime-node,
+.runtime-chip {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 999px;
+  color: var(--white);
+  font-weight: 900;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+}
+
+.runtime-node.core {
+  top: 40%;
+  left: 50%;
+  width: 132px;
+  height: 132px;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(142, 231, 240, 0.42);
+  background: linear-gradient(135deg, rgba(114, 87, 255, 0.95), rgba(39, 199, 216, 0.72));
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.runtime-ring {
+  position: absolute;
+  inset: 86px;
+  border: 1px solid rgba(142, 231, 240, 0.22);
+  border-radius: 999px;
+}
+
+.runtime-ring.ring-two {
+  inset: 42px;
+  border-color: rgba(114, 87, 255, 0.28);
+}
+
+.runtime-chip {
+  max-width: 190px;
+  min-height: 42px;
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(16px);
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.runtime-chip.chip-a {
+  top: 17%;
+  left: 44%;
+}
+
+.runtime-chip.chip-b {
+  top: 36%;
+  right: 8%;
+}
+
+.runtime-chip.chip-c {
+  right: 18%;
+  bottom: 26%;
+}
+
+.runtime-chip.chip-d {
+  bottom: 22%;
+  left: 16%;
+}
+
+.runtime-chip.chip-e {
+  top: 36%;
+  left: 7%;
+}
+
+.runtime-chip.chip-f {
+  top: 15%;
+  right: 14%;
 }
 
 .runtime-panel {
@@ -340,6 +422,44 @@ p {
   font-weight: 800;
   letter-spacing: 0;
   text-transform: uppercase;
+}
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.screenshot-grid article {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 16px 45px rgba(17, 24, 39, 0.08);
+}
+
+.screenshot-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--line);
+}
+
+.screenshot-grid h3,
+.screenshot-grid p {
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+.screenshot-grid h3 {
+  margin-top: 20px;
+}
+
+.screenshot-grid p {
+  margin-bottom: 22px;
+  font-size: 15px;
+  line-height: 1.55;
 }
 
 .product-surface {
@@ -501,7 +621,7 @@ p {
   }
 
   .runtime-visual,
-  .runtime-visual canvas {
+  .runtime-map {
     min-height: 460px;
   }
 
@@ -511,7 +631,8 @@ p {
   .service-grid,
   .status-grid,
   .timeline,
-  .mode-grid {
+  .mode-grid,
+  .screenshot-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -533,8 +654,35 @@ p {
   .service-grid,
   .status-grid,
   .timeline,
-  .mode-grid {
+  .mode-grid,
+  .screenshot-grid {
     grid-template-columns: 1fr;
+  }
+
+  .runtime-map {
+    min-height: 390px;
+    padding: 18px;
+  }
+
+  .runtime-node.core {
+    width: 104px;
+    height: 104px;
+    font-size: 19px;
+  }
+
+  .runtime-ring {
+    inset: 72px 28px;
+  }
+
+  .runtime-ring.ring-two {
+    inset: 36px 14px;
+  }
+
+  .runtime-chip {
+    max-width: 145px;
+    min-height: 36px;
+    padding: 8px 10px;
+    font-size: 11px;
   }
 
   .runtime-panel {
