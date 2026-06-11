@@ -2,10 +2,6 @@
   <img src="assets/cairo-conscious-harness-hero.svg" alt="CAIRO Conscious Harness" width="100%">
 </p>
 
-<p align="center">
-  <img src="assets/cairo-logo-gradient.svg" alt="Cairo logo" width="96">
-</p>
-
 # CAIRO Conscious Harness
 
 <p align="center">
