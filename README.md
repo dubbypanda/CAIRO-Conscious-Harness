@@ -13,13 +13,13 @@
 
 **CAIRO Conscious Harness is the next-generation software-first agent harness for operational intelligence.**
 
-Most AI tools scale intelligence by calling bigger models more often. CAIRO scales intelligence through better operational systems: software execution, memory, workflows, swarms, model routing, governance, self-healing, and continuously improving execution.
+Most AI tools try to become smarter by calling bigger models more often. CAIRO takes a different path: it gives intelligence an operating system. It turns goals into governed software execution across memory, workflows, swarms, model routing, verification, self-healing, operational connectivity, and continuous learning.
 
 CAIRO is built around one principle:
 
 > Better systems create better intelligence.
 
-Users should not need to master prompt engineering, context engineering, model routing, tool selection, or workflow design. A user gives Cairo a goal. Cairo expands it, routes it, decomposes it, assigns agents, executes through governed tools, verifies the outcome, learns from the run, and improves the next one.
+Users should not need to master prompt engineering, context engineering, model routing, tool selection, or workflow design. A user gives Cairo a goal. Cairo observes, understands, plans, executes, verifies, reflects, learns, heals, and optimizes. It expands the goal into a task graph, chooses the right models and tools, assigns the right agents, executes through governed workflows, and improves the next run.
 
 [Open the public site](https://colomboai-com.github.io/CAIRO-Conscious-Harness/) | [Use Cairo WebUI](https://cairo.colomboai.com) | [Download Cairo Desktop](https://cairo.colomboai.com/download)
 
@@ -136,13 +136,15 @@ Use Cairo from the browser:
 
 ### Desktop App
 
-Download Cairo Desktop from the Cairo access page:
+Download Cairo Desktop from the Cairo access page or the official release channel:
 
-1. Go to [https://cairo.colomboai.com/download](https://cairo.colomboai.com/download).
+1. Open [https://cairo.colomboai.com/download](https://cairo.colomboai.com/download).
 2. Choose the installer for your operating system: Windows, macOS, or Linux.
-3. Install Cairo Desktop and sign in.
-4. Open Cairo and connect your preferred model providers, local runtimes, and optional developer tools.
-5. Use the browser version from the same page if you prefer no-install access.
+3. Or use the latest release channel: [https://github.com/ColomboAI-com/cairo-releases/releases/latest](https://github.com/ColomboAI-com/cairo-releases/releases/latest).
+4. macOS Apple Silicon direct download: [Cairo-2.0.3-mac-arm64.dmg](https://github.com/ColomboAI-com/cairo-releases/releases/download/v2.0.3/Cairo-2.0.3-mac-arm64.dmg).
+5. Windows and Linux users can use the latest release page: [https://github.com/ColomboAI-com/cairo-releases/releases/latest](https://github.com/ColomboAI-com/cairo-releases/releases/latest).
+6. Install Cairo Desktop, sign in, and connect your preferred model providers, local runtimes, and optional developer tools.
+7. Use the browser version from the same page if you prefer no-install access.
 
 Supported desktop targets:
 
@@ -248,19 +250,6 @@ flowchart TD
     CSIP --> OP
     CSIP --> SE
 ```
-
----
-
-## Closed Source Notice
-
-This repository is a public product and GitHub Pages repository for Cairo Conscious Harness. It is intentionally limited to:
-
-- Public product documentation.
-- Public screenshots.
-- Public brand assets.
-- Static GitHub Pages content.
-
-It does not publish Cairo production source code, backend services, private runtime scripts, proprietary model-routing logic, credentials, internal build artifacts, or closed-source implementation details.
 
 ---
 
