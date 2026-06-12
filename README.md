@@ -13,13 +13,13 @@
 
 **CAIRO Conscious Harness is the next-generation software-first agent harness for operational intelligence.**
 
-Most AI tools try to become smarter by calling bigger models more often. CAIRO takes a different path: it gives intelligence an operating system. It turns goals into governed software execution across memory, workflows, swarms, model routing, verification, self-healing, operational connectivity, and continuous learning.
+Most AI tools scale intelligence by calling bigger models more often. CAIRO scales intelligence through better operational systems: software execution, memory, workflows, swarms, model routing, governance, self-healing, and continuously improving execution.
 
 CAIRO is built around one principle:
 
 > Better systems create better intelligence.
 
-Users should not need to master prompt engineering, context engineering, model routing, tool selection, or workflow design. A user gives Cairo a goal. Cairo observes, understands, plans, executes, verifies, reflects, learns, heals, and optimizes. It expands the goal into a task graph, chooses the right models and tools, assigns the right agents, executes through governed workflows, and improves the next run.
+Users should not need to master prompt engineering, context engineering, model routing, tool selection, or workflow design. A user gives Cairo a goal. Cairo expands it, routes it, decomposes it, assigns agents, executes through governed tools, verifies the outcome, learns from the run, and improves the next one.
 
 [Open the public site](https://colomboai-com.github.io/CAIRO-Conscious-Harness/) | [Use Cairo WebUI](https://cairo.colomboai.com) | [Download Cairo Desktop](https://cairo.colomboai.com/download)
 
@@ -138,13 +138,13 @@ Use Cairo from the browser:
 
 Download Cairo Desktop from the Cairo access page or the official release channel:
 
-1. Open [https://cairo.colomboai.com/download](https://cairo.colomboai.com/download).
-2. Choose the installer for your operating system: Windows, macOS, or Linux.
-3. Or use the latest release channel: [https://github.com/ColomboAI-com/cairo-releases/releases/latest](https://github.com/ColomboAI-com/cairo-releases/releases/latest).
-4. macOS Apple Silicon direct download: [Cairo-2.0.3-mac-arm64.dmg](https://github.com/ColomboAI-com/cairo-releases/releases/download/v2.0.3/Cairo-2.0.3-mac-arm64.dmg).
-5. Windows and Linux users can use the latest release page: [https://github.com/ColomboAI-com/cairo-releases/releases/latest](https://github.com/ColomboAI-com/cairo-releases/releases/latest).
-6. Install Cairo Desktop, sign in, and connect your preferred model providers, local runtimes, and optional developer tools.
-7. Use the browser version from the same page if you prefer no-install access.
+<p>
+  <a href="https://cairo.colomboai.com/download"><img src="https://img.shields.io/badge/Download%20Cairo%20Desktop-Windows%20%7C%20macOS%20%7C%20Linux-7C5CFF?style=for-the-badge" alt="Download Cairo Desktop"></a>
+  <a href="https://github.com/ColomboAI-com/cairo-releases/releases/latest"><img src="https://img.shields.io/badge/Latest%20Release-Windows%20%7C%20Linux-35D0FF?style=for-the-badge" alt="Latest Cairo release"></a>
+  <a href="https://github.com/ColomboAI-com/cairo-releases/releases/download/v2.0.3/Cairo-2.0.3-mac-arm64.dmg"><img src="https://img.shields.io/badge/macOS%20Apple%20Silicon-DMG-20C997?style=for-the-badge" alt="macOS Apple Silicon DMG"></a>
+</p>
+
+Choose the installer for your operating system, install Cairo Desktop, sign in, and connect your preferred model providers, local runtimes, and optional developer tools. Use the browser version from the same page if you prefer no-install access.
 
 Supported desktop targets:
 

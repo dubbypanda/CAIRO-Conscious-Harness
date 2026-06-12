@@ -196,6 +196,41 @@ p {
   border: 1px solid var(--line);
 }
 
+.principle-line {
+  display: inline-flex;
+  width: fit-content;
+  padding: 10px 14px;
+  border: 1px solid rgba(114, 87, 255, 0.24);
+  border-radius: 8px;
+  color: var(--ink);
+  background: rgba(114, 87, 255, 0.08);
+  font-weight: 900;
+}
+
+.download-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0 10px;
+}
+
+.download-actions .primary-action,
+.download-actions .secondary-action {
+  min-height: 42px;
+  padding: 0 14px;
+  font-size: 13px;
+}
+
+.dark-section .download-actions .primary-action {
+  background: linear-gradient(135deg, var(--violet), var(--blue));
+}
+
+.dark-section .download-actions .secondary-action {
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
 .runtime-visual {
   position: relative;
   min-height: 520px;
