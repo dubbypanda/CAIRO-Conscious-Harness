@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cairo-conscious-harness-hero.svg" alt="CAIRO Conscious Harness" width="100%">
+  <img src="assets/cairo-conscious-harness-hero.png" alt="CAIRO Conscious Harness" width="100%">
 </p>
 
 # CAIRO Conscious Harness
