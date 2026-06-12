@@ -8,7 +8,6 @@
   <a href="https://colomboai-com.github.io/CAIRO-Conscious-Harness/"><img src="https://img.shields.io/badge/GitHub%20Pages-live-6EA8FF?style=for-the-badge" alt="GitHub Pages"></a>
   <a href="https://cairo.colomboai.com"><img src="https://img.shields.io/badge/WebUI-cairo.colomboai.com-7C5CFF?style=for-the-badge" alt="Cairo WebUI"></a>
   <a href="https://cairo.colomboai.com/download"><img src="https://img.shields.io/badge/Desktop%20Download-cairo.colomboai.com-35D0FF?style=for-the-badge" alt="Cairo desktop download"></a>
-  <img src="https://img.shields.io/badge/Access-closed%20source%20platform-20C997?style=for-the-badge" alt="Closed source platform">
 </p>
 
 > The World's First Software-First Operational Consciousness Infrastructure.
