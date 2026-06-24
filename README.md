@@ -6,8 +6,8 @@
 
 <p align="center">
   <a href="https://colomboai-com.github.io/CAIRO-Conscious-Harness/"><img src="https://img.shields.io/badge/GitHub%20Pages-live-6EA8FF?style=for-the-badge" alt="GitHub Pages"></a>
-  <a href="https://cairo.colomboai.com"><img src="https://img.shields.io/badge/WebUI-cairo.colomboai.com-7C5CFF?style=for-the-badge" alt="Cairo WebUI"></a>
-  <a href="https://cairo.colomboai.com/download"><img src="https://img.shields.io/badge/Desktop%20Download-cairo.colomboai.com-35D0FF?style=for-the-badge" alt="Cairo desktop download"></a>
+  <a href="https://Cairo.sh"><img src="https://img.shields.io/badge/WebUI-Cairo.sh-7C5CFF?style=for-the-badge" alt="Cairo WebUI"></a>
+  <a href="https://Cairo.sh/download"><img src="https://img.shields.io/badge/Desktop%20Download-Cairo.sh-35D0FF?style=for-the-badge" alt="Cairo desktop download"></a>
 </p>
 
 > The World's First Software-First Operational Consciousness Infrastructure.
@@ -100,7 +100,7 @@ The future of intelligence is:
 
 ## Better Operational Systems.
 
-[Open the public site](https://colomboai-com.github.io/CAIRO-Conscious-Harness/) | [Use Cairo WebUI](https://cairo.colomboai.com) | [Download Cairo Desktop](https://cairo.colomboai.com/download)
+[Open the public site](https://colomboai-com.github.io/CAIRO-Conscious-Harness/) | [Use Cairo WebUI](https://Cairo.sh) | [Download Cairo Desktop](https://Cairo.sh/download)
 
 ---
 
@@ -210,7 +210,7 @@ flowchart LR
 
 Use Cairo from the browser:
 
-- [https://cairo.colomboai.com](https://cairo.colomboai.com)
+- [https://Cairo.sh](https://Cairo.sh)
 - No installation required. Sign in, choose a workspace, and start with a goal.
 
 ### Desktop App
@@ -218,7 +218,7 @@ Use Cairo from the browser:
 Download Cairo Desktop from the Cairo access page or the official release channel:
 
 <p>
-  <a href="https://cairo.colomboai.com/download"><img src="https://img.shields.io/badge/Download%20Cairo%20Desktop-Windows%20%7C%20macOS%20%7C%20Linux-7C5CFF?style=for-the-badge" alt="Download Cairo Desktop"></a>
+  <a href="https://Cairo.sh/download"><img src="https://img.shields.io/badge/Download%20Cairo%20Desktop-Windows%20%7C%20macOS%20%7C%20Linux-7C5CFF?style=for-the-badge" alt="Download Cairo Desktop"></a>
   <a href="https://github.com/ColomboAI-com/cairo-releases/releases/latest"><img src="https://img.shields.io/badge/Latest%20Release-Windows%20%7C%20Linux-35D0FF?style=for-the-badge" alt="Latest Cairo release"></a>
   <a href="https://github.com/ColomboAI-com/cairo-releases/releases/download/v2.0.3/Cairo-2.0.3-mac-arm64.dmg"><img src="https://img.shields.io/badge/macOS%20Apple%20Silicon-DMG-20C997?style=for-the-badge" alt="macOS Apple Silicon DMG"></a>
 </p>
